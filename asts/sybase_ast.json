@@ -1,0 +1,53 @@
+[
+  {
+    "proc_name": "test_procedure",
+    "params": [
+      {
+        "name": "input_id",
+        "type": "INTEGER",
+        "mode": "IN"
+      },
+      {
+        "name": "result_msg",
+        "type": "VARCHAR(255)",
+        "mode": "OUT"
+      }
+    ],
+    "return_type": "INTEGER",
+    "variables": [
+      {
+        "name": "local_var",
+        "type": "INTEGER"
+      }
+    ],
+    "statements": [
+      {
+        "type": "SET",
+        "name": "local_var",
+        "value": "input_id * 2"
+      },
+      {
+        "type": "IF",
+        "condition": "local_var > 0",
+        "then": [
+          {
+            "type": "SET",
+            "name": "result_msg",
+            "value": "'Success'"
+          }
+        ],
+        "else": [
+          {
+            "type": "SET",
+            "name": "result_msg",
+            "value": "'Failed'"
+          }
+        ]
+      },
+      {
+        "type": "RETURN",
+        "expression": "0"
+      }
+    ]
+  }
+]

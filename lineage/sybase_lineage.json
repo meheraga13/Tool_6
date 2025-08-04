@@ -1,0 +1,24 @@
+{
+  "proc_a": {
+    "type": "procedure",
+    "calls": ["proc_b"]
+  },
+  "proc_b": {
+    "type": "procedure",
+    "calls": []
+  },
+  "jobs": {
+    "type": "table",
+    "calls": ["proc_a"],
+    "usage": {
+      "proc_a": ["read", "write"]
+    }
+  },
+  "archive": {
+    "type": "table",
+    "calls": ["proc_b"],
+    "usage": {
+      "proc_b": ["read"]
+    }
+  }
+}

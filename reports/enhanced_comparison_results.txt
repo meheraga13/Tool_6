@@ -1,0 +1,53 @@
+================================================================================
+ENHANCED AST COMPARISON REPORT
+================================================================================
+
+Comparison Date: 2025-08-04T10:36:37.481430
+Sybase Procedures: 1
+PostgreSQL Procedures: 0
+
+Missing Procedures in PostgreSQL:
+  • test_procedure
+
+STRUCTURAL ANALYSIS:
+  Average Statements per Procedure:
+    Sybase: 3.0
+    PostgreSQL: 0.0
+  No antipatterns detected.
+
+TRANSFORMATION ANALYSIS:
+  Sybase-only statements:
+    • IF
+    • RETURN
+    • SET
+
+SEMANTIC PROCEDURE COMPARISON:
+LINEAGE ANALYSIS (SYBASE):
+  Objects missing in target lineage:
+    • archive
+    • jobs
+    • proc_a
+    • proc_b
+  Call Hierarchy Differences:
+    Object: proc_a
+      Source deps: proc_b
+      Target deps: (none)
+    Object: jobs
+      Source deps: proc_a, proc_b
+      Target deps: (none)
+    Object: archive
+      Source deps: proc_b
+      Target deps: (none)
+  Lineage Anti-Patterns:
+    • Source: Table jobs written by one or more procs.
+
+RECOMMENDATIONS:
+
+Missing Procedures (Priority: HIGH):
+  - 1 procedures missing in target
+    Action Items:
+      - Implement procedure test_procedure
+    Impact: Critical
+
+
+================================================================================

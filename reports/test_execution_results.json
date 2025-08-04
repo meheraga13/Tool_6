@@ -1,0 +1,273 @@
+{
+  "execution_summary": {
+    "total_tests": 5,
+    "successful_tests": 0,
+    "failed_tests": 5,
+    "comparison_results": {
+      "procedures_compared": 5,
+      "identical_results": 5,
+      "different_results": 0,
+      "execution_differences": [],
+      "data_differences": []
+    }
+  },
+  "test_results": {
+    "main2": {
+      "procedure_name": "main2",
+      "sybase_result": {
+        "success": false,
+        "errors": [
+          {
+            "execution_error": "(20009, b'Unknown error')"
+          }
+        ]
+      },
+      "postgres_result": {
+        "success": false,
+        "errors": [
+          {
+            "execution_error": "connection to server at \"localhost\" (::1), port 5432 failed: FATAL:  password authentication failed for user \"postgres\"\n"
+          }
+        ]
+      },
+      "comparison": {
+        "identical": true,
+        "row_count_match": true,
+        "column_count_match": false,
+        "data_match": false,
+        "differences": [],
+        "similarity_score": 1.0
+      }
+    },
+    "test_procedure": {
+      "procedure_name": "test_procedure",
+      "sybase_result": {
+        "success": false,
+        "errors": [
+          {
+            "execution_error": "(20009, b'DB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\nDB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\nDB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\nDB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\n')"
+          }
+        ]
+      },
+      "postgres_result": {
+        "success": false,
+        "errors": [
+          {
+            "execution_error": "connection to server at \"localhost\" (::1), port 5432 failed: FATAL:  password authentication failed for user \"postgres\"\n"
+          }
+        ]
+      },
+      "comparison": {
+        "identical": true,
+        "row_count_match": true,
+        "column_count_match": false,
+        "data_match": false,
+        "differences": [],
+        "similarity_score": 1.0
+      }
+    },
+    "process_large_batch": {
+      "procedure_name": "process_large_batch",
+      "sybase_result": {
+        "success": false,
+        "errors": [
+          {
+            "execution_error": "(20009, b'Unknown error')"
+          }
+        ]
+      },
+      "postgres_result": {
+        "success": false,
+        "errors": [
+          {
+            "execution_error": "connection to server at \"localhost\" (::1), port 5432 failed: FATAL:  password authentication failed for user \"postgres\"\n"
+          }
+        ]
+      },
+      "comparison": {
+        "identical": true,
+        "row_count_match": true,
+        "column_count_match": false,
+        "data_match": false,
+        "differences": [],
+        "similarity_score": 1.0
+      }
+    },
+    "reprice_and_flag_orders": {
+      "procedure_name": "reprice_and_flag_orders",
+      "sybase_result": {
+        "success": false,
+        "errors": [
+          {
+            "execution_error": "(20009, b'DB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\nDB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\nDB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\nDB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\n')"
+          }
+        ]
+      },
+      "postgres_result": {
+        "success": false,
+        "errors": [
+          {
+            "execution_error": "connection to server at \"localhost\" (::1), port 5432 failed: FATAL:  password authentication failed for user \"postgres\"\n"
+          }
+        ]
+      },
+      "comparison": {
+        "identical": true,
+        "row_count_match": true,
+        "column_count_match": false,
+        "data_match": false,
+        "differences": [],
+        "similarity_score": 1.0
+      }
+    },
+    "process_customer_batches": {
+      "procedure_name": "process_customer_batches",
+      "sybase_result": {
+        "success": false,
+        "errors": [
+          {
+            "execution_error": "(20009, b'DB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\nDB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\n')"
+          }
+        ]
+      },
+      "postgres_result": {
+        "success": false,
+        "errors": [
+          {
+            "execution_error": "connection to server at \"localhost\" (::1), port 5432 failed: FATAL:  password authentication failed for user \"postgres\"\n"
+          }
+        ]
+      },
+      "comparison": {
+        "identical": true,
+        "row_count_match": true,
+        "column_count_match": false,
+        "data_match": false,
+        "differences": [],
+        "similarity_score": 1.0
+      }
+    }
+  },
+  "performance_metrics": {
+    "average_execution_time": {
+      "sybase": 0.0,
+      "postgres": 0.0
+    },
+    "total_execution_time": {
+      "sybase": 0.0,
+      "postgres": 0.0
+    },
+    "performance_comparison": [],
+    "slowest_procedures": {
+      "sybase": [],
+      "postgres": []
+    },
+    "fastest_procedures": {
+      "sybase": [],
+      "postgres": []
+    }
+  },
+  "data_comparison": {},
+  "issues_found": [
+    {
+      "type": "sybase_execution_failure",
+      "procedure": "main2",
+      "severity": "critical",
+      "details": [
+        {
+          "execution_error": "(20009, b'Unknown error')"
+        }
+      ]
+    },
+    {
+      "type": "postgres_execution_failure",
+      "procedure": "main2",
+      "severity": "critical",
+      "details": [
+        {
+          "execution_error": "connection to server at \"localhost\" (::1), port 5432 failed: FATAL:  password authentication failed for user \"postgres\"\n"
+        }
+      ]
+    },
+    {
+      "type": "sybase_execution_failure",
+      "procedure": "test_procedure",
+      "severity": "critical",
+      "details": [
+        {
+          "execution_error": "(20009, b'DB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\nDB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\nDB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\nDB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\n')"
+        }
+      ]
+    },
+    {
+      "type": "postgres_execution_failure",
+      "procedure": "test_procedure",
+      "severity": "critical",
+      "details": [
+        {
+          "execution_error": "connection to server at \"localhost\" (::1), port 5432 failed: FATAL:  password authentication failed for user \"postgres\"\n"
+        }
+      ]
+    },
+    {
+      "type": "sybase_execution_failure",
+      "procedure": "process_large_batch",
+      "severity": "critical",
+      "details": [
+        {
+          "execution_error": "(20009, b'Unknown error')"
+        }
+      ]
+    },
+    {
+      "type": "postgres_execution_failure",
+      "procedure": "process_large_batch",
+      "severity": "critical",
+      "details": [
+        {
+          "execution_error": "connection to server at \"localhost\" (::1), port 5432 failed: FATAL:  password authentication failed for user \"postgres\"\n"
+        }
+      ]
+    },
+    {
+      "type": "sybase_execution_failure",
+      "procedure": "reprice_and_flag_orders",
+      "severity": "critical",
+      "details": [
+        {
+          "execution_error": "(20009, b'DB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\nDB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\nDB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\nDB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\n')"
+        }
+      ]
+    },
+    {
+      "type": "postgres_execution_failure",
+      "procedure": "reprice_and_flag_orders",
+      "severity": "critical",
+      "details": [
+        {
+          "execution_error": "connection to server at \"localhost\" (::1), port 5432 failed: FATAL:  password authentication failed for user \"postgres\"\n"
+        }
+      ]
+    },
+    {
+      "type": "sybase_execution_failure",
+      "procedure": "process_customer_batches",
+      "severity": "critical",
+      "details": [
+        {
+          "execution_error": "(20009, b'DB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\nDB-Lib error message 20009, severity 9:\\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\\nNet-Lib error during Unknown error (10061)\\n')"
+        }
+      ]
+    },
+    {
+      "type": "postgres_execution_failure",
+      "procedure": "process_customer_batches",
+      "severity": "critical",
+      "details": [
+        {
+          "execution_error": "connection to server at \"localhost\" (::1), port 5432 failed: FATAL:  password authentication failed for user \"postgres\"\n"
+        }
+      ]
+    }
+  ]
+}

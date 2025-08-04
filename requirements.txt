@@ -1,0 +1,49 @@
+# Core dependencies
+antlr4-python3-runtime==4.13.1
+sqlparse==0.4.4
+psycopg2-binary==2.9.9
+pymssql==2.2.8
+
+# AST and parsing
+jsonschema==4.20.0
+lark-parser==0.12.0
+tree-sitter==0.20.4
+
+# Data analysis and comparison
+pandas==2.1.4
+numpy==1.25.2
+difflib2==0.1.2
+deepdiff==6.7.1
+
+# Database connectivity
+sqlalchemy==2.0.23
+alembic==1.13.1
+
+# LLM integration
+openai==1.6.1
+langchain==0.1.0
+tiktoken==0.5.2
+
+# Testing and validation
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-mock==3.12.0
+
+# Reporting and visualization
+jinja2==3.1.3
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.17.0
+
+# Utilities
+pyyaml==6.0.1
+click==8.1.7
+tqdm==4.66.1
+colorama==0.4.6
+rich==13.7.0
+
+# Development tools
+black==23.12.1
+isort==5.12.0
+mypy==1.8.0
+flake8==6.1.0

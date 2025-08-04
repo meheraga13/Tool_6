@@ -1,0 +1,10 @@
+{
+  "test_procedure": {
+    "test_case_count": 3,
+    "complexity_score": 3.0,
+    "coverage_areas": [
+      "conditional_logic",
+      "return_values"
+    ]
+  }
+}

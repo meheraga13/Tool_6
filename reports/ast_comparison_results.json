@@ -1,0 +1,699 @@
+{
+  "comparison_metadata": {
+    "source_procedures": 10,
+    "target_procedures": 10,
+    "comparison_timestamp": "2025-08-04T00:25:43.830454"
+  },
+  "procedure_comparisons": [
+    {
+      "procedure_name": "proc_7",
+      "parameter_analysis": {
+        "mapped_parameters": [],
+        "missing_parameters": [],
+        "extra_parameters": [],
+        "type_mismatches": []
+      },
+      "variable_analysis": {
+        "mapped_variables": [
+          {
+            "variable_name": "cnt",
+            "source_type": "int",
+            "target_type": "int",
+            "type_compatible": true
+          }
+        ],
+        "missing_variables": [],
+        "extra_variables": [],
+        "type_mismatches": []
+      },
+      "statement_analysis": {
+        "mapped_statements": [
+          {
+            "statement_type": "WHILE",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "SET",
+            "source_count": 2,
+            "target_count": 2
+          },
+          {
+            "statement_type": "PRINT",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "IF",
+            "source_count": 1,
+            "target_count": 1
+          }
+        ],
+        "missing_statements": [],
+        "extra_statements": []
+      }
+    },
+    {
+      "procedure_name": "proc_1",
+      "parameter_analysis": {
+        "mapped_parameters": [
+          {
+            "parameter_name": "param1",
+            "source_type": "int",
+            "target_type": "int",
+            "type_compatible": true
+          },
+          {
+            "parameter_name": "param2",
+            "source_type": "varchar",
+            "target_type": "varchar",
+            "type_compatible": true
+          }
+        ],
+        "missing_parameters": [],
+        "extra_parameters": [],
+        "type_mismatches": []
+      },
+      "variable_analysis": {
+        "mapped_variables": [
+          {
+            "variable_name": "var1",
+            "source_type": "int",
+            "target_type": "int",
+            "type_compatible": true
+          },
+          {
+            "variable_name": "var2",
+            "source_type": "varchar",
+            "target_type": "varchar",
+            "type_compatible": true
+          }
+        ],
+        "missing_variables": [],
+        "extra_variables": [],
+        "type_mismatches": []
+      },
+      "statement_analysis": {
+        "mapped_statements": [
+          {
+            "statement_type": "DEALLOCATE_CURSOR",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "IF",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "WHILE",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "SET",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "RAISERROR",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "CLOSE_CURSOR",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "FETCH",
+            "source_count": 2,
+            "target_count": 2
+          },
+          {
+            "statement_type": "DECLARE_CURSOR",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "EXEC",
+            "source_count": 2,
+            "target_count": 2
+          },
+          {
+            "statement_type": "TRY",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "PRINT",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "OPEN_CURSOR",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "CASE",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "COMMIT_TRAN",
+            "source_count": 1,
+            "target_count": 1
+          }
+        ],
+        "missing_statements": [],
+        "extra_statements": []
+      }
+    },
+    {
+      "procedure_name": "proc_4",
+      "parameter_analysis": {
+        "mapped_parameters": [
+          {
+            "parameter_name": "start",
+            "source_type": "date",
+            "target_type": "date",
+            "type_compatible": true
+          },
+          {
+            "parameter_name": "finish",
+            "source_type": "date",
+            "target_type": "date",
+            "type_compatible": true
+          }
+        ],
+        "missing_parameters": [],
+        "extra_parameters": [],
+        "type_mismatches": []
+      },
+      "variable_analysis": {
+        "mapped_variables": [
+          {
+            "variable_name": "range_total",
+            "source_type": "decimal",
+            "target_type": "decimal",
+            "type_compatible": true
+          }
+        ],
+        "missing_variables": [],
+        "extra_variables": [],
+        "type_mismatches": []
+      },
+      "statement_analysis": {
+        "mapped_statements": [
+          {
+            "statement_type": "EXEC",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "RAISERROR",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "TRY",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "SET",
+            "source_count": 1,
+            "target_count": 1
+          }
+        ],
+        "missing_statements": [],
+        "extra_statements": []
+      }
+    },
+    {
+      "procedure_name": "proc_9",
+      "parameter_analysis": {
+        "mapped_parameters": [],
+        "missing_parameters": [],
+        "extra_parameters": [],
+        "type_mismatches": []
+      },
+      "variable_analysis": {
+        "mapped_variables": [
+          {
+            "variable_name": "flag",
+            "source_type": "bit",
+            "target_type": "bit",
+            "type_compatible": true
+          },
+          {
+            "variable_name": "row",
+            "source_type": "int",
+            "target_type": "int",
+            "type_compatible": true
+          }
+        ],
+        "missing_variables": [],
+        "extra_variables": [],
+        "type_mismatches": []
+      },
+      "statement_analysis": {
+        "mapped_statements": [
+          {
+            "statement_type": "TRY",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "RAISERROR",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "EXEC",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "COMMIT_TRAN",
+            "source_count": 1,
+            "target_count": 1
+          }
+        ],
+        "missing_statements": [],
+        "extra_statements": []
+      }
+    },
+    {
+      "procedure_name": "proc_8",
+      "parameter_analysis": {
+        "mapped_parameters": [
+          {
+            "parameter_name": "username",
+            "source_type": "varchar",
+            "target_type": "varchar",
+            "type_compatible": true
+          }
+        ],
+        "missing_parameters": [],
+        "extra_parameters": [],
+        "type_mismatches": []
+      },
+      "variable_analysis": {
+        "mapped_variables": [
+          {
+            "variable_name": "perm_lvl",
+            "source_type": "int",
+            "target_type": "int",
+            "type_compatible": true
+          }
+        ],
+        "missing_variables": [],
+        "extra_variables": [],
+        "type_mismatches": []
+      },
+      "statement_analysis": {
+        "mapped_statements": [
+          {
+            "statement_type": "SELECT",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "PRINT",
+            "source_count": 2,
+            "target_count": 2
+          },
+          {
+            "statement_type": "IF",
+            "source_count": 1,
+            "target_count": 1
+          }
+        ],
+        "missing_statements": [],
+        "extra_statements": []
+      }
+    },
+    {
+      "procedure_name": "proc_10",
+      "parameter_analysis": {
+        "mapped_parameters": [
+          {
+            "parameter_name": "date_input",
+            "source_type": "date",
+            "target_type": "date",
+            "type_compatible": true
+          }
+        ],
+        "missing_parameters": [],
+        "extra_parameters": [],
+        "type_mismatches": []
+      },
+      "variable_analysis": {
+        "mapped_variables": [
+          {
+            "variable_name": "found_rows",
+            "source_type": "int",
+            "target_type": "int",
+            "type_compatible": true
+          }
+        ],
+        "missing_variables": [],
+        "extra_variables": [],
+        "type_mismatches": []
+      },
+      "statement_analysis": {
+        "mapped_statements": [
+          {
+            "statement_type": "DEALLOCATE_CURSOR",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "IF",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "WHILE",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "SET",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "CLOSE_CURSOR",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "FETCH",
+            "source_count": 2,
+            "target_count": 2
+          },
+          {
+            "statement_type": "DECLARE_CURSOR",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "EXEC",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "PRINT",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "OPEN_CURSOR",
+            "source_count": 1,
+            "target_count": 1
+          }
+        ],
+        "missing_statements": [],
+        "extra_statements": []
+      }
+    },
+    {
+      "procedure_name": "proc_6",
+      "parameter_analysis": {
+        "mapped_parameters": [
+          {
+            "parameter_name": "ids",
+            "source_type": "varchar",
+            "target_type": "varchar",
+            "type_compatible": true
+          }
+        ],
+        "missing_parameters": [],
+        "extra_parameters": [],
+        "type_mismatches": []
+      },
+      "variable_analysis": {
+        "mapped_variables": [
+          {
+            "variable_name": "cur_id",
+            "source_type": "int",
+            "target_type": "int",
+            "type_compatible": true
+          }
+        ],
+        "missing_variables": [],
+        "extra_variables": [],
+        "type_mismatches": []
+      },
+      "statement_analysis": {
+        "mapped_statements": [
+          {
+            "statement_type": "WHILE",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "FETCH",
+            "source_count": 2,
+            "target_count": 2
+          },
+          {
+            "statement_type": "DECLARE_CURSOR",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "EXEC",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "OPEN_CURSOR",
+            "source_count": 1,
+            "target_count": 1
+          }
+        ],
+        "missing_statements": [],
+        "extra_statements": []
+      }
+    },
+    {
+      "procedure_name": "proc_5",
+      "parameter_analysis": {
+        "mapped_parameters": [
+          {
+            "parameter_name": "json_payload",
+            "source_type": "varchar",
+            "target_type": "varchar",
+            "type_compatible": true
+          }
+        ],
+        "missing_parameters": [],
+        "extra_parameters": [],
+        "type_mismatches": []
+      },
+      "variable_analysis": {
+        "mapped_variables": [
+          {
+            "variable_name": "id_val",
+            "source_type": "int",
+            "target_type": "int",
+            "type_compatible": true
+          }
+        ],
+        "missing_variables": [],
+        "extra_variables": [],
+        "type_mismatches": []
+      },
+      "statement_analysis": {
+        "mapped_statements": [
+          {
+            "statement_type": "WHILE",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "EXEC",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "SET",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "COMMIT_TRAN",
+            "source_count": 1,
+            "target_count": 1
+          }
+        ],
+        "missing_statements": [],
+        "extra_statements": []
+      }
+    },
+    {
+      "procedure_name": "proc_3",
+      "parameter_analysis": {
+        "mapped_parameters": [
+          {
+            "parameter_name": "search_key",
+            "source_type": "varchar",
+            "target_type": "varchar",
+            "type_compatible": true
+          }
+        ],
+        "missing_parameters": [],
+        "extra_parameters": [],
+        "type_mismatches": []
+      },
+      "variable_analysis": {
+        "mapped_variables": [
+          {
+            "variable_name": "results_found",
+            "source_type": "int",
+            "target_type": "int",
+            "type_compatible": true
+          }
+        ],
+        "missing_variables": [],
+        "extra_variables": [],
+        "type_mismatches": []
+      },
+      "statement_analysis": {
+        "mapped_statements": [
+          {
+            "statement_type": "SELECT",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "PRINT",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "IF",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "RAISERROR",
+            "source_count": 1,
+            "target_count": 1
+          }
+        ],
+        "missing_statements": [],
+        "extra_statements": []
+      }
+    },
+    {
+      "procedure_name": "proc_2",
+      "parameter_analysis": {
+        "mapped_parameters": [
+          {
+            "parameter_name": "in_user_id",
+            "source_type": "int",
+            "target_type": "int",
+            "type_compatible": true
+          }
+        ],
+        "missing_parameters": [],
+        "extra_parameters": [],
+        "type_mismatches": []
+      },
+      "variable_analysis": {
+        "mapped_variables": [
+          {
+            "variable_name": "user_status",
+            "source_type": "varchar",
+            "target_type": "varchar",
+            "type_compatible": true
+          },
+          {
+            "variable_name": "row_count",
+            "source_type": "int",
+            "target_type": "int",
+            "type_compatible": true
+          }
+        ],
+        "missing_variables": [],
+        "extra_variables": [],
+        "type_mismatches": []
+      },
+      "statement_analysis": {
+        "mapped_statements": [
+          {
+            "statement_type": "RETURN",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "DEALLOCATE_CURSOR",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "IF",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "WHILE",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "SET",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "CLOSE_CURSOR",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "FETCH",
+            "source_count": 2,
+            "target_count": 2
+          },
+          {
+            "statement_type": "DECLARE_CURSOR",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "EXEC",
+            "source_count": 1,
+            "target_count": 1
+          },
+          {
+            "statement_type": "OPEN_CURSOR",
+            "source_count": 1,
+            "target_count": 1
+          }
+        ],
+        "missing_statements": [],
+        "extra_statements": []
+      }
+    }
+  ],
+  "missing_procedures": [],
+  "extra_procedures": [],
+  "recommendations": [],
+  "structural_analysis": {
+    "avg_statements_sybase": 3.8,
+    "avg_statements_postgres": 3.8,
+    "anti_patterns": [
+      "Excessive cursor usage detected in Sybase code"
+    ]
+  },
+  "transformation_analysis": {
+    "sybase_only_statements": [],
+    "postgres_only_statements": []
+  }
+}

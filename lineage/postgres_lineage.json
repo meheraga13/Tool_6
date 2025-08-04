@@ -1,0 +1,51 @@
+{
+  "main2": {
+    "type": "procedure",
+    "calls": []
+  },
+  "jobs": {
+    "type": "table",
+    "calls": [
+      "main2"
+    ],
+    "usage": {
+      "main2": [
+        "read"
+      ]
+    }
+  },
+  "big_jobs": {
+    "type": "table",
+    "calls": [
+      "main2"
+    ],
+    "usage": {
+      "main2": [
+        "write"
+      ]
+    }
+  },
+  "regular_jobs": {
+    "type": "table",
+    "calls": [
+      "main2"
+    ],
+    "usage": {
+      "main2": [
+        "write"
+      ]
+    }
+  },
+  "my_temp_table": {
+    "type": "table",
+    "calls": [
+      "main2"
+    ],
+    "usage": {
+      "main2": [
+        "create",
+        "read_write"
+      ]
+    }
+  }
+}

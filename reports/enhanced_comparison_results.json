@@ -1,0 +1,74 @@
+{
+  "comparison_metadata": {
+    "source_procedures": 1,
+    "target_procedures": 0,
+    "comparison_timestamp": "2025-08-04T10:36:37.481430"
+  },
+  "procedure_comparisons": [],
+  "missing_procedures": [
+    "test_procedure"
+  ],
+  "extra_procedures": [],
+  "recommendations": [
+    {
+      "category": "Missing Procedures",
+      "priority": "HIGH",
+      "description": "1 procedures missing in target",
+      "action_items": [
+        "Implement procedure test_procedure"
+      ],
+      "impact": "Critical"
+    }
+  ],
+  "structural_analysis": {
+    "avg_statements_sybase": 3.0,
+    "avg_statements_postgres": 0.0,
+    "anti_patterns": []
+  },
+  "transformation_analysis": {
+    "sybase_only_statements": [
+      "IF",
+      "RETURN",
+      "SET"
+    ],
+    "postgresql_only_statements": []
+  },
+  "lineage_analysis": {
+    "objects_missing_in_target": [
+      "archive",
+      "jobs",
+      "proc_a",
+      "proc_b"
+    ],
+    "objects_extra_in_target": [],
+    "usage_differences": [],
+    "call_hierarchy_differences": [
+      {
+        "object": "proc_a",
+        "source_deps": [
+          "proc_b"
+        ],
+        "target_deps": []
+      },
+      {
+        "object": "jobs",
+        "source_deps": [
+          "proc_a",
+          "proc_b"
+        ],
+        "target_deps": []
+      },
+      {
+        "object": "archive",
+        "source_deps": [
+          "proc_b"
+        ],
+        "target_deps": []
+      }
+    ],
+    "cycle_differences": [],
+    "anti_patterns": [
+      "Source: Table jobs written by one or more procs."
+    ]
+  }
+}
